@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </head>
+    <body>
+        <script>
+            function doMath(num1, num2, operator){
+              switch (operator){
+                  case '+':
+                      var result = num1 + num2;
+                      break;
+                  case '-':
+                      var result = num1 - num2;
+                      break;
+                  case '*':
+                      var result = num1 * num2;
+                      break;
+                  case 'x':
+                      var result = num1 * num2;
+                      break;
+                  case 'X':
+                      var result = num1 * num2;
+                      break;
+                  case '/':
+                      var result = num1 / num2;
+
+                }
+                return result;
+            }
+
+            doMath(1, 5, '+')
+        </script>
+    </body>
+</html>
